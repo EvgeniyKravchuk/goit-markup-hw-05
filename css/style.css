@@ -678,12 +678,14 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item:hover .ovarlay,
-.portfolio-list-item:focus .ovarlay {
+.portfolio-list-link:hover .ovarlay,
+.portfolio-list-link:focus .ovarlay {
   transform: translateY(0%);
 }
 
-.portfolio-list-item:hover {
+.portfolio-list-link:hover,
+.portfolio-list-link:focus {
+  outline: 0px;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 }
 
