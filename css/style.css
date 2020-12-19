@@ -685,7 +685,6 @@ p {
 
 .portfolio-list-link:hover,
 .portfolio-list-link:focus {
-  outline: 0px;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 }
 
